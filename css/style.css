@@ -1,0 +1,17 @@
+:root {
+    --cor-primaria: #545b3c;
+    --cor-secundaria: #9eac71;
+    --cor-terciaria: #dac7b9;
+    --cor-quartenária: #978773;
+    --cor-quinteária: #f1f1f1;
+    --branco: white;
+    --preto: black;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: var(--preto);
+}
