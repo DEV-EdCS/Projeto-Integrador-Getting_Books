@@ -23,11 +23,11 @@
     padding: 0.25rem 4rem;
 }
 
-.nav1 a{
+.nav1 a {
     color: var(--branco);
 }
 
-.cabecalho a{
+.cabecalho a {
     color: var(--branco);
 }
 
@@ -56,10 +56,10 @@
     width: 100px;
 }
 
-.search-txt { 
+.search-txt {
     border: none;
     outline: none;
-    width: 500px;
+    width: 600px;
 }
 
 /*estilização do "buscar"*/
@@ -82,11 +82,28 @@
 }
 
 .barra {
-   margin-inline: 1rem;
+    margin-inline: 1rem;
+}
+
+.icon-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.icones {
+    display: flex;
+    gap: 3rem;
 }
 
 .apresentacao {
     padding: 4rem 26rem 2rem;
+}
+
+.categoria {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .titulo1 {
@@ -111,11 +128,11 @@
 }
 
 .texto2 {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   padding: 4rem 26rem;
-   gap: 3rem;
-   text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 26rem;
+    gap: 3rem;
+    text-align: center;
 
 }
