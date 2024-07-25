@@ -64,6 +64,29 @@
 
 /*estilização do "buscar"*/
 
+h2 {
+    color: var(--cor-primaria);
+}
+
+.rodape {
+    color: var(--cor-quinteária);
+}
+
+h3 {
+    color: var(--cor-primaria);
+}
+
+.divisao {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.missao {
+}
+
 .cabecalho {
     background-color: var(--cor-secundaria);
     padding: 1rem 4rem;
