@@ -8,13 +8,15 @@
     --preto: black;
 }
 
-* {
+* { /* Configuração global e de responsividade basica */
     font-family: "Poppins-regular", sans-serif;
     margin: 0;
+    max-width: 100%;
     box-sizing: border-box;
     text-decoration: none;
 }
 
+/* Estilização na navegação*/
 .nav1 {
     background-color: var(--cor-primaria);
     color: var(--branco);
@@ -44,8 +46,6 @@
     align-items: center;
 }
 
-/*estilização do "buscar"*/
-
 .search-box {
     border-radius: 15px;
     background: var(--branco);
@@ -62,7 +62,7 @@
     width: 600px;
 }
 
-/*estilização do "buscar"*/
+/*Estilização do conteudo*/
 
 h2 {
     color: var(--cor-primaria);
@@ -78,9 +78,16 @@ h2 {
 
 h3 {
     color: var(--cor-primaria);
+    padding-bottom: 1rem;
+}
+
+.apresentacao {
+    padding: 4rem 26rem 2rem;
 }
 
 .divisao {
+    display: flex;
+    gap: 4rem;
     margin-top: 35px;
     margin-bottom: 35px;
 }
@@ -102,6 +109,7 @@ h3 {
 .visao p,
 .valores p,
 .valores details {
+    font-size: 18px;
     margin-top: 1rem; /* Espaço entre os parágrafos e os textos */
 }
 
@@ -150,10 +158,6 @@ h3 {
     gap: 3rem;
 }
 
-.apresentacao {
-    padding: 4rem 26rem 2rem;
-}
-
 .categoria {
     display: flex;
     align-items: center;
@@ -162,14 +166,16 @@ h3 {
 
 .titulo1 {
     color: var(--cor-secundaria);
+    text-align: center;
 }
 
 .titulo2 {
     color: var(--cor-primaria);
+    text-align: center;
 }
 
 .imagem {
-    padding: 1rem 26rem 3rem;
+    padding: 1rem 22rem 3rem;
     display: flex;
     gap: 2rem;
 }
@@ -177,13 +183,22 @@ h3 {
 .texto1 {
     gap: 1rem;
     text-align: left;
-    font-size: 16px;
+    font-size: 17px;
+    text-align: justify;
 
 }
 
 .texto2 {
     padding: 4rem 22rem;
     text-align: center;
+}
+
+.pergunta {
+    background-color: var(--cor-primaria);
+    color: var(--branco);
+    padding: 1rem;
+    border-radius: 0.75rem;
+    font-size: 19px;
 }
 
 .p {
@@ -254,4 +269,164 @@ footer {
 .icon-social {
     display: flex;
     gap: 15px;
+}
+
+
+/* Aplicação da responsividade */
+@media (max-width: 1470px) {
+    .imagem {
+        padding: 1rem 19rem 3rem;
+        display: flex;
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 1360px) {
+    /*header*/
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .nav2 {
+        padding: 0.25rem 13rem;
+    }
+    
+    /*conteudo*/
+    .apresentacao {
+        padding: 3.4rem 14rem 1.5rem;
+    }
+
+    .imagem {
+        padding: 1.3rem 14rem 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .texto2 {
+        padding: 4rem 14rem;
+        text-align: center;
+    }
+    
+    /*footer*/
+    .footer-container {
+        max-width: 900px;
+    }
+}
+
+@media (max-width: 1050px) {
+    /*header*/
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .nav2 {
+        padding: 0.25rem 9rem;
+    }
+    
+    /*conteudo*/
+    .apresentacao {
+        padding: 3.4rem 10rem 1.5rem;
+    }
+
+    .imagem {
+        padding: 1.3rem 12rem 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .texto2 {
+        padding: 4rem 12rem;
+        text-align: center;
+    }
+    
+    /*footer*/
+    .footer-container {
+        max-width: 900px;
+    }
+}
+
+@media (max-width: 900px) {
+    /*header*/
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .nav2 {
+        padding: 0.25rem 5rem;
+    }
+    
+    /*conteudo*/
+    .apresentacao {
+        padding: 3.4rem 1rem 1.5rem;
+    }
+
+    .imagem {
+        padding: 1.3rem 10rem 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .texto2 {
+        padding: 4rem 10rem;
+        text-align: center;
+    }
+    
+    /*footer*/
+    .footer-container {
+        display: flex;
+        gap: 1rem 9rem;
+        padding: 1rem 8rem 1rem;
+    }
+}
+
+@media (max-width: 760px) {
+    /*header*/
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .nav2 {
+        padding: 0.25rem 2rem;
+    }
+    
+    /*conteudo*/
+    .apresentacao {
+        padding: 3.4rem 1rem 1.5rem;
+    }
+
+    .imagem {
+        padding: 1.3rem 8rem 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .texto2 {
+        padding: 4rem 8rem;
+        text-align: center;
+    }
+    
+    .divisao {
+    display: flex;
+    flex-direction: column
+    }
+
+    /*footer*/
+    .footer-container {
+        display: flex;
+        gap: 1rem 5rem;
+        padding: 1rem 7rem 1rem;
+    }
 }
