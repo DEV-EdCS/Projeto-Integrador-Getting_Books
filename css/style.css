@@ -47,19 +47,27 @@
 }
 
 .search-box {
-    border-radius: 15px;
+    border-radius: 1rem;
     background: var(--branco);
-    padding: 10px;
-}
-
-.search-btn {
-    width: 100px;
+    padding: 0.75rem;
 }
 
 .search-txt {
     border: none;
     outline: none;
-    width: 600px;
+    width: 35rem;
+}
+
+/* Menu hamburguer mobile */
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+}
+
+.mobile-menu {
+    cursor: pointer;
 }
 
 /*Estilização do conteudo*/
@@ -400,7 +408,7 @@ footer {
     .nav2 {
         padding: 0.25rem 2rem;
     }
-    
+
     /*conteudo*/
     .apresentacao {
         padding: 3.4rem 1rem 1.5rem;
