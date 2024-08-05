@@ -283,19 +283,36 @@ footer {
         display: flex;
         flex-direction: column;
         gap: 1rem;
+        height: 12rem;
     }
 
     .icon-link {
         position: absolute;
-        left: 20px;
+        left: 10rem;
+        top: 4rem;
     }
 
     .search-box {
-
+    position: absolute;
+    top: 9rem;
     }
 
-    .icones {
+    .icon-link1 {
         position: absolute;
+        top: 5rem;
+        right: 24rem;
+    }
+
+    .icon-link2 {
+        position: absolute;
+        right: 18rem;
+        top: 5rem;
+    }
+
+    .icon-link3 {
+        position: absolute;
+        right: 11rem;
+        top: 5rem;
     }
 
     .nav2 {
@@ -366,6 +383,36 @@ footer {
         display: flex;
         flex-direction: column;
         gap: 1rem;
+        height: 11rem;
+    }
+
+    .icon-link {
+        position: absolute;
+        left: 7rem;
+        top: 3rem;
+    }
+
+    .search-box {
+    position: absolute;
+    top: 8rem;
+    }
+
+    .icon-link1 {
+        position: absolute;
+        top: 4rem;
+        right: 21.5rem;
+    }
+
+    .icon-link2 {
+        position: absolute;
+        right: 15rem;
+        top: 4rem;
+    }
+
+    .icon-link3 {
+        position: absolute;
+        right: 8rem;
+        top: 4rem;
     }
 
     .nav2 {
