@@ -46,6 +46,10 @@
     align-items: center;
 }
 
+
+.fas fa-search {
+    cursor: pointer;
+}
 .search-box {
     border-radius: 1rem;
     background: var(--branco);
