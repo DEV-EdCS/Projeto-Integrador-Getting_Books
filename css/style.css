@@ -183,7 +183,7 @@ h3 {
 .texto1 {
     gap: 1rem;
     text-align: left;
-    font-size: 17px;
+    font-size: 1.3rem;
     text-align: justify;
 
 }
@@ -273,13 +273,13 @@ footer {
 
 
 /* Aplicação da responsividade */
-@media (max-width: 1470px) {
+/* @media (max-width: 1470px) {
     .imagem {
         padding: 1rem 19rem 3rem;
         display: flex;
         gap: 2rem;
     }
-}
+} */
 
 @media screen and (max-width: 1360px) {
     /*header*/
